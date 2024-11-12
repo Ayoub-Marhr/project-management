@@ -25,6 +25,4 @@ public class CustomUserServiceImpl implements CustomUserService, UserDetailsServ
 
         return new org.springframework.security.core.userdetails.User(user.getEmail(), user.getPassword(), authorities);
     }
-
-    // Class implementation goes here
 }
